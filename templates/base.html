@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Study Quiz App{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/add">Add Question</a> |
+        <a href="/quiz">Take Quiz</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
